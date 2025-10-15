@@ -85,9 +85,9 @@ go build ./cmd/felix
 
 ```
 felix/
-├── cmd/
-│   └── felix/
-│       └── main.go
+├── assets/
+│   └── banner.jpg
+├── main.go
 ├── go.mod
 ├── go.sum
 ├── COPYRIGHT
