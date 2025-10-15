@@ -95,7 +95,9 @@ func main() {
 	}
 
 	for _, pattern := range patterns {
-		matches, err := doublestar.Glob(os.DirFS("."), pattern)
+		normalized := filepath.ToSlash(pattern)
+		matches, err := doublestar.Glob(os.DirFS("."), normalized)
+
 		if err != nil {
 			fmt.Fprintf(os.Stderr, "Error matching pattern %s: %v\n", pattern, err)
 			continue
