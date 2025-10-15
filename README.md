@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.jpg" alt="Felix the Recursive Cat Banner" width="100%">
+</p>
+
 # 🐱 Felix — A Recursive Cat
 
 [![Go Version](https://img.shields.io/badge/Go-1.24%2B-blue.svg)](https://go.dev/)
@@ -9,6 +13,7 @@ It recursively reads files that match wildcard patterns (like `*.md`, `**/*.txt`
 and prints their contents — just like the Unix `cat`, but recursive and smart 🐾
 
 > “Felix” comes from Latin, meaning _happy_ or _lucky_.
+
 > It’s also a nod to our feline friends — perfect for a recursive `cat`. 🐾
 
 ---
